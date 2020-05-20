@@ -8,9 +8,7 @@ module Memorable
       self.all.count
     end
 
-    def all
-      self.class.all
-    end
+    
   end
 
   module InstanceMethods
